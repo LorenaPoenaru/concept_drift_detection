@@ -24,15 +24,15 @@ _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.SEAGenerator -f 3 -
 
 ##### Non-Ideal Conditions:
 
-**Noise 10%:**
+###### Noise 10%:
 
 _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.SEAGenerator -f 3 -b -n 0 -i 1) -d (generators.SEAGenerator -f 2 -b -n 10 -i 1) -p 55000 -w 1) -f sea_1_abrupt_drift_10_noise_balanced.arff -m 100000_
 
-**Noise 20%:**
+###### Noise 20%:
 
 _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.SEAGenerator -f 3 -b -n 0 -i 1) -d (generators.SEAGenerator -f 2 -b -n 20 -i 1) -p 55000 -w 1) -f sea_1_abrupt_drift_20_noise_balanced.arff -m 100000_
 
-**Class Imbalance**
+###### Class Imbalance
 
 _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.SEAGenerator -f 3 -n 0 -i 1) -d (generators.SEAGenerator -f 2 -n 0 -i 1) -p 55000 -w 1) -f sea_1_abrupt_drift_0_noise_imbalanced.arff -m 100000_
 
@@ -48,15 +48,15 @@ _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.AgrawalGenerator -f
 
 ##### Non-Ideal Conditions:
 
-**Noise 10%**
+###### Noise 10%
 
 _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.AgrawalGenerator -f 1 -b -p 0 -i 1) -d (generators.AgrawalGenerator -f 6 -b -p 0.1 -i 1) -p 55000 -w 1) -f agraw1_1_abrupt_drift_10_noise_balanced.arff -m 100000_
 
-**Noise 20%**
+###### Noise 20%
 
 _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.AgrawalGenerator -f 1 -b -p 0 -i 1) -d (generators.AgrawalGenerator -f 6 -b -p 0.2 -i 1) -p 55000 -w 1) -f agraw1_1_abrupt_drift_20_noise_balanced.arff -m 100000_
 
-**Class Imbalance**
+###### Class Imbalance
 
 _WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.AgrawalGenerator -f 1 -p 0 -i 1) -d (generators.AgrawalGenerator -f 6 -p 0 -i 1) -p 55000 -w 1) -f agraw1_1_abrupt_drift_0_noise_imbalanced.arff -m 100000_
 
