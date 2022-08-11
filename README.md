@@ -3,9 +3,9 @@
 Explanations about where to download the real-world data and how to generate the synthetic data can be found in _data_.
 ## Experimental Code
 #### Synthetic Data Code
-The code for synthetic data for both error based detectors and data distribution based detectors can be found in _synthetic_data_code_.
+The code for synthetic data for both error based detectors and data distribution based detectors can be found in _synthetic_data_code_. This script covers all the cases analyzed: all random seeds, all datasets, all noise values, all drift types and both balanced and imbalanced classes.
 #### Real-world Data Code
-The code for real-world data for both datasets, Energy (ELECT2) and Airlines, can be found in _real_world_data_code_.
+The code for real-world data for both datasets, Energy (ELECT2) and Airlines, can be found in _real_world_data_code_. Both types of drift detectors are evaluated within one script corresponding to the dataset.
 ## Versions
 python=3.8.8 
 
