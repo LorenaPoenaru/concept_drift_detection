@@ -1,4 +1,4 @@
-# Concept Drift Detection - A Comparative Study
+# Are Concept Drift Detectors Reliable Alarming Systems? - A Comparative Study
 ## Data 
 Explanations about where to download the real-world data and how to generate the synthetic data can be found in _data_.
 ## Experimental Code
